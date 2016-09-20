@@ -8,7 +8,8 @@ window.addEventListener("load", function() {
 
     function intervalo (firstNumber, seconds){
         setInterval(function({
-            document.getElementById("resultado").innerHTML = firstNumber++; }, seconds*1000);
+            document.getElementById("resultado").innerHTML = firstNumber++; }, 
+            seconds*1000);
         document.getElementById("sconds").value = "";
         document.getElementById("firstNumber").value = "";
     }
